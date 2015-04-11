@@ -7,11 +7,10 @@
 
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
 var ini = require('ini');
 
 exports.name = 'ini';
+exports.inputFormat = ['ini'];
 exports.outputFormat = 'json';
 
 exports.render = function _render(str, opts) {
