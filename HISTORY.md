@@ -1,4 +1,8 @@
 
+
+## v0.3.2 / April 10, 2015
+- remove `fs` and `path` refs, add inputFormats
+
 ## v0.3.1 / April 10, 2015
 - run update, close #2
 
