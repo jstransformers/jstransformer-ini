@@ -16,7 +16,13 @@
 
 ```js
 var ini = require('jstransformer')(require('jstransformer-ini'));
-var result = ini.render('[ini]\nbar = "baz"\nqux = true');
+var content = `
+[ini]
+bar = "baz"
+qux = true
+`
+
+var result = ini.render(content);
 console.log(JSON.parse(result.body))
 //=> '{"ini": {"bar": "baz", "qux": true}}'
 ```
