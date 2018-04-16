@@ -1,7 +1,5 @@
 # jstransformer-ini
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-ini.svg)](https://greenkeeper.io/)
-
 [ini](https://www.npmjs.com/package/ini) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-ini/master.svg)](https://travis-ci.org/jstransformers/jstransformer-ini)
